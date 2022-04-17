@@ -1,13 +1,11 @@
 body{
-
-background: rgb(223, 236, 250)
+    background:linear-gradient(to bottom,rgb(192, 221, 243) ,  rgb(188, 217, 247) ,rgb(217, 239, 247))
 }
 
 #b-name{
-    color:rgb(13, 96, 185);
+    color:rgb(0, 4, 255);
     display: flex;
     justify-content: center;
-
 }
 
 form{
@@ -21,7 +19,7 @@ form{
     grid-template-rows: auto auto auto;
 }
 
- .refridegerators{
+.refridegerators{
     grid-column: 2/1;
 }
 
@@ -42,7 +40,7 @@ a{
 }
 
 .list:hover{
-    color:red;
+    color:rgb(236, 10, 236);
 }
 
 li:visited{
@@ -51,4 +49,21 @@ li:visited{
 
 .footer-ul{
     list-style-type: none;
+    
 }
+
+h2{
+    box-shadow:2px 2px 2px 2px rgb(94, 67, 67);
+}
+
+
+h5{
+    font-size:15px;
+    margin:10px auto 5px auto;
+
+}
+
+input{
+    box-shadow: 1px 1px 1px 1px rgb(184, 184, 247);
+}
+
