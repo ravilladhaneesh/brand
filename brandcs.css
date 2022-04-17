@@ -1,0 +1,54 @@
+body{
+
+background: rgb(223, 236, 250)
+}
+
+#b-name{
+    color:rgb(13, 96, 185);
+    display: flex;
+    justify-content: center;
+
+}
+
+form{
+    padding:5px;
+}
+
+
+.section-3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+ .refridegerators{
+    grid-column: 2/1;
+}
+
+.telivisions{
+    grid-area: 2/2;
+} 
+
+.smartphones{
+    grid-area:3/1;
+}
+
+.header-ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list:hover{
+    color:red;
+}
+
+li:visited{
+    color:purple;
+}
+
+.footer-ul{
+    list-style-type: none;
+}
