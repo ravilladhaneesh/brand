@@ -19,7 +19,7 @@ form{
     grid-template-rows: auto auto auto;
 }
 
-.refridegerators{
+.computers{
     grid-column: 2/1;
 }
 
@@ -40,7 +40,7 @@ a{
 }
 
 .list:hover{
-    color:rgb(236, 10, 236);
+    color:rgb(250, 154, 10);
 }
 
 li:visited{
@@ -67,3 +67,67 @@ input{
     box-shadow: 1px 1px 1px 1px rgb(184, 184, 247);
 }
 
+
+
+.menu-bar{
+    text-align: center;
+    background-color:rgb(64, 93, 121); 
+}
+.menu-bar li{
+    list-style:none;
+    display:inline-flex;
+    line-height: 40px;
+    margin-right:100px;
+    color: peachpuff;
+}
+
+.menu-bar ul li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.menu-bar ul li :hover{
+    color:rgb(250, 154, 10);
+}
+
+.sub-menu-1{
+    display:none;
+}
+
+.menu-bar ul li:hover   .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background:rgb(74, 106, 136);
+    margin-top: 40px;
+    margin-left:auto;
+
+}
+
+
+.menu-bar ul li:hover   .sub-menu-1 ul li{
+    display: block;
+}
+
+.menu-bar ul li:hover   .sub-menu-1 ul li{
+    padding:1px;
+    color:white;
+    border-bottom: 1px solid white;
+    border-radius:0px;
+    text-align: left;
+}
+
+.menu-bar ul li:hover   .sub-menu-1 ul li:last-child
+{
+    border-bottom:none;
+}
+
+.menu-bar ul li:hover   .sub-menu-1 ul li:hover{
+    color:rgb(250, 154, 10);
+}
+
+
+footer{
+    background:linear-gradient(to right,rgb(141, 207, 252),white);
+    margin:2px;
+}
